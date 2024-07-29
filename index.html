@@ -1,34 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AWS Community Day Malta</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #232F3E;
-            color: #FFFFFF;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2em;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <h1>AWS Community Day Malta</h1>
-        <p>Page under construction. Stay tuned.</p>
+    <link rel="stylesheet" href="./perLoader.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Inter&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="loading">
+    <div class="preloader">
+      <div class="loader"></div>
     </div>
-</body>
+
+    <div class="main-content">
+      <div class="navbar sidebarMenu" id="navbar">
+        <a href="#heading">Home</a>
+        <a href="#about-us">About</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#team">Team</a>
+        <a href="#venue">Venue</a>
+      </div>
+
+      <main>
+        <section id="heading" class="heading-section">
+          <div class="heading-content">
+            <img src="./assets/bg-images/awsAnimated.gif" alt="" />
+            <h2>Welcome to AWS Community Day Malta</h2>
+
+
+            <!-- <button>
+              <a href="https://konfhub.com/awsstudentcommunityigdtuw"
+                >Register Now</a
+              >
+            </button> -->
+          </div>
+        </section>
+
+        <!-- <section class="stats-section">
+          <div class="stats-content">
+            <li><span class="big-number">250+</span> <br />attendees</li>
+            <li><span class="big-number">9</span> <br />talks</li>
+            <li><span class="big-number">2 </span> <br />Activities</li>
+            <li><span class="big-number">10+ </span> <br />professionals</li>
+          </div>
+
+          <div class="cloud">
+            <div class="wheels">
+              <img
+                class="wheel1"
+                src="./assets/bg-images/wheel.jpg"
+                alt="Wheel"
+              />
+              <img
+                class="wheel2"
+                src="./assets/bg-images/wheel.jpg"
+                alt="Wheel"
+              />
+            </div>
+            <img class="aws" src="./assets/bg-images/car.png" alt="Cloud" />
+          </div>
+        </section> -->
+
+        <section id="about-us" class="about-us-section">
+          <div class="about-us-content">
+            <h2>About AWS Community Day 2024</h2>
+            <p>
+              Welcome to the AWS Community Day, a gathering aimed at
+              exploring the latest trends, innovations, and best practices in
+              the world of cloud computing offered by Amazon Web Services (AWS).
+            </p>
+            <p>
+              Our Community Day brings together experts, enthusiasts,
+              and learners from various domains to delve into the advancements,
+              strategies, and real-world applications of AWS cloud services.
+            </p>
+            <p>
+              Join us for insightful sessions, engaging discussions, hands-on
+              workshops, and networking opportunities, all tailored to expand
+              your knowledge and proficiency in leveraging AWS solutions.
+            </p>
+          </div>
+        </section>
+
+        <section id="why-join" class="join-us-section">
+          <h2>Why Join Us?</h2>
+          <div class="join-us-content">
+            <!-- <div class="reason-card">
+              <h3>
+                Engaging <br />
+                Talks
+              </h3>
+              <p>Discover insightful talks by industry experts.</p>
+            </div>
+
+            <div class="reason-card">
+              <h3>Networking Opportunities</h3>
+              <p>Connect with professionals and expand your network.</p>
+            </div>
+
+            <div class="reason-card">
+              <h3>Workshops and Skill Building</h3>
+              <p>Participate in hands-on workshops to enhance your skills.</p>
+            </div> -->            
+
+            <div class="reason-card">
+              <h3>🎤 Speaker Sessions:</h3>
+              <p>
+                Immerse yourself in enlightening talks by certified industry
+                experts, expanding your cloud knowledge! 🗣🔍
+              </p>
+            </div>
+
+            <div class="reason-card">
+              <h3>🤝 Networking:</h3>
+              <p>
+                Connect with a tribe of like-minded individuals, forging bonds
+                that will last a lifetime! 🌐👥
+              </p>
+            </div>
+
+            <!-- <div class="reason-card">
+              <h3>🍔 Feast Alert:</h3>
+              <p>
+                Indulge in a spread of delicious team lunches and evening snacks
+                that will leave your taste buds tingling! 🍕🍇
+              </p>
+            </div>
+
+            <div class="reason-card">
+              <h3>🎁 Goodies Galore:</h3>
+              <p>
+                Wait for it... amazing surprises that will make your day truly
+                unforgettable! 🎁🤩
+              </p>
+            </div>
+          </div> -->
+        </section>
+
+        <!-- <section id="speakers" class="speakers-section">
+          <h2 class="sub-heading">Speakers</h2>
+          <div class="speakers-container">
+            <div class="speaker-card">
+              <div>
+                <img src="./assets/Speakers/Jen Looper.png" alt="speaker" />
+                <a
+                  class="linkedin-icon-speaker"
+                  href="https://www.linkedin.com/in/jenlooper/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="speaker-details">
+                <h3>Jen Looper</h3>
+                <a
+                  class="icons"
+                  href="https://www.linkedin.com/in/jenlooper/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <p>Head of Academic Advocacy at AWS</p>
+                <h5>Topic:</h5>
+                <p>Two Journeys, One Cloud: Career Pathways</p>
+              </div>
+            </div>
+          </div>
+        </section> -->
+
+        <section id="sponsors" class="sponsors-section">
+          <div class="sub-part">
+            <h2 class="sub-heading">Title Sponsor</h2>
+            <img src="./assets/Sponsors/aws-logo.png" alt="" />
+          </div>
+        </section>
+
+        <section id="countdown" class="countdown-section">
+          <div class="countdown-content">
+            <h2>8th November, 2024</h2>
+            <br/>
+            <h3>The event starts in...</h3>
+            <div id="countdown-timer">
+              <div id="countdown-clock">
+                <li><span class="big-number" id="days"></span><br />days</li>
+                <p>:</p>
+                <li><span class="big-number" id="hours"></span><br />hours</li>
+                <p>:</p>
+                <li>
+                  <span class="big-number" id="minutes"></span><br />minutes
+                </li>
+                <p>:</p>
+                <li>
+                  <span class="big-number" id="seconds"></span> <br />seconds
+                </li>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section id="team">
+          <h2 class="sub-heading">Our Team</h2>
+          <div class="heads">
+            <div class="member">
+              <div class="profile-card">
+                <img
+                  src="./assets/Aws core team/Arushi Garg.jpg"
+                  alt="Profile Image"
+                />
+                <a
+                  class="linkedin-icon"
+                  href="https://www.linkedin.com/in/arushi-garg105"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="profile-info">
+                <h3>Arushi Garg</h3>
+                <p>Captain</p>
+              </div>
+            </div>
+          </div>
+          <div class="heads">
+            <div class="member">
+              <div class="profile-card">
+                <img
+                  src="./assets/Members/Tvesha Singh.jpg"
+                  alt="Profile Image"
+                />
+                <a
+                  class="linkedin-icon"
+                  href="https://www.linkedin.com/in/tvesha-singh/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="profile-info">
+                <h3>Tvesha</h3>
+                <p>Volunteer</p>
+              </div>
+            </div>
+          </div>
+        </section> -->
+
+        <!--<section id="venue" class="venue-section">
+           <h2 class="sub-heading">Venue</h2>
+          <div class="venue-content">
+            <div class="venue-details">
+              <h2>Auditorium</h2>
+              <h4>
+                Indira Gandhi Delhi Technical University for Women,<br />
+                Kashmere Gate, Delhi
+              </h4>
+            </div>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.8055370309853!2d77.22942760932312!3d28.665540782482477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd0682f8aa2b%3A0x84c5888a85caa2bd!2sIGDTUW%20Auditorium!5e0!3m2!1sen!2sin!4v1703256687127!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div> 
+        </section>-->
+
+        <!-- <section id = "faqs">
+          <div class="faq-container">
+            <h2 style="text-align: center;">FAQs</h2>
+            <div class = "faq">
+              <div class="question">Q: What is AWS Cloud Club at IGDTUW?</div>
+              <div class="answer">
+                <p>The AWS Cloud Club at IGDTUW is a student organization dedicated to promoting knowledge and skills related to cloud computing using Amazon Web Services (AWS).</p>
+              </div>
+            </div>
+          </div>
+          <script>
+            const faqs = document.querySelectorAll(".faq");
+
+            faqs.forEach(faq => {
+                faq.addEventListener('click', () => {
+                    faq.classList.toggle("active");
+                });
+            });
+          </script>
+        </section> -->
+      </main>
+
+      <div class="footer">
+        <p>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+    <script src="countdown.js"></script>
+    <script src="./preloader.js"></script>
+    <script src="./spearker_card.js"></script>
+
+    <script>
+      const sponsorLogos = document.querySelectorAll(".sponsor-logo");
+      const sponsorCount = sponsorLogos.length;
+      document.documentElement.style.setProperty(
+        "--sponsor-count",
+        sponsorCount
+      );
+      document
+        .querySelector(".sponsor-bar")
+        .appendChild(sponsorLogos[0].cloneNode(true));
+    </script>
+  </body>
 </html>
