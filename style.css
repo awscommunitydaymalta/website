@@ -602,6 +602,7 @@ html {
 .sponsors-section .sub-part {
     display: inline-block;
     margin: 0px 60px;
+    width: 100%;
 }
 
 .sponsors-section .sub-part img {
@@ -634,6 +635,17 @@ html {
     max-width: 20vw;
     object-fit: contain;
     margin-right: 30px
+}
+
+.sponsors-section .sub-part .bronze {
+    max-width: 15vw;
+    object-fit: contain;
+    margin-right: 30px
+}
+
+.sponsors-section .sub-part .row {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 900px) {
