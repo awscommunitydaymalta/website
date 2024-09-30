@@ -632,6 +632,12 @@ html {
 }
 
 .sponsors-section .sub-part .gold {
+    max-width: 25vw;
+    object-fit: contain;
+    margin-right: 30px
+}
+
+.sponsors-section .sub-part .silver {
     max-width: 20vw;
     object-fit: contain;
     margin-right: 30px
@@ -865,8 +871,8 @@ html {
 }
 
 .map-container {
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 350px;
     border-radius: 8px;
     /* overflow: hidden; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
