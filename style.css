@@ -102,6 +102,7 @@ html {
     position: relative;
     z-index: 1;
     text-align: center;
+    margin-top: 35vh;
 }
 
 .heading-content img {
@@ -139,10 +140,6 @@ html {
     text-decoration: none;
 }
 
-.heading-content a {
-    text-decoration: none;
-    color: white;
-}
 
 .button:hover {
     background-color: #e68a00; /* Change color on hover */
