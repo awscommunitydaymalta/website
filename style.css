@@ -981,3 +981,10 @@ iframe {
     text-align: left;
     margin: 0 10%;
 }
+
+.image-container img{
+    width: 95%;  /* Set image width to 90% of the parent */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any inline spacing around the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
